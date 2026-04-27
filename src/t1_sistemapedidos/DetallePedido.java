@@ -11,7 +11,6 @@ package t1_sistemapedidos;
 public class DetallePedido {
     Plato plato;
     int cantidad;
-
     public DetallePedido(Plato plato, int cantidad) {
         this.plato = plato;
         this.cantidad = cantidad;
