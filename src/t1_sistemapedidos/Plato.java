@@ -16,5 +16,4 @@ public class Plato {
         this.nombre = nombre;
         this.precio = precio;
     }
-    
 }

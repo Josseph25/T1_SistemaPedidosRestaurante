@@ -16,7 +16,6 @@ public class DetallePedido {
         this.plato = plato;
         this.cantidad = cantidad;
     }
-
     public double calcularSubtotal() {
         return plato.precio * cantidad;
     }

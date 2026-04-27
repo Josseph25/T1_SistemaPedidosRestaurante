@@ -16,7 +16,6 @@ public class GestorPedidos {
     public void crearPedido(Pedido p) {
         listaPedidos.add(p);
     }
-
     public void listarPedidos() {
         int i = 1;
         for (Pedido p : listaPedidos) {

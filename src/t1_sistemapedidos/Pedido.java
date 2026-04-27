@@ -16,7 +16,6 @@ public class Pedido {
     public void agregarDetalle(DetallePedido dp) {
         listaDetalles.add(dp);
     }
-
     public double calcularTotal() {
         if (listaDetalles.isEmpty()) {
             System.out.println("El pedido está vacío, no se puede calcular el total.");

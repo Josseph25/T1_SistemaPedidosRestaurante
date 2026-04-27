@@ -18,7 +18,6 @@ public class T1_SistemaPedidos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         GestorPedidos gestor = new GestorPedidos();
-
         Pedido pedido = new Pedido();
 
         System.out.println("=== REGISTRO DE PEDIDO ===");
@@ -64,6 +63,6 @@ public class T1_SistemaPedidos {
         System.out.println("\n=== LISTA DE PEDIDOS ===");
         gestor.listarPedidos();
     }
-        // TODO code application logic here
+        
 }
     
